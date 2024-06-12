@@ -13,7 +13,7 @@ import {Category} from "@/models/Category";
 const Title = styled.h1`
   font-size: 2.5rem;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 40px;i
   text-align: center;
 
 
@@ -134,17 +134,17 @@ export default function contactPage({categories}) {
         <Title>Polityka prywatności</Title>
         <h4>§1</h4>
         <h3> POSTANOWIENIA OGÓLNE</h3>
-        <p>1. Niniejszy dokument określa Politykę Prywatności w sklepie internetowym  Wycinarnia.pl, funkcjonującym pod adresem https://wycinarnia.vercel.app/pl, prowadzonym przez spółkę IMPRESS CREATIVES Sp. z o.o. z siedzibą w Katowicach, ul. Pierwiosnków 11, 40-750 (Katowice), wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy Katowice - Wschód w Katowicach, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0000874714, REGON 387743385, NIP 9542821471, która w szczególności  obejmuje regulacje dotyczące ochrony danych osobowych oraz bezpieczeństwa innych danych wprowadzonych do Serwisu przez Użytkownika. </p>
-        <p>2. Polityka Prywatności stanowi integralny załącznik do Regulaminu sklepu internetowego Wycinarnia.pl. </p>
+        <p>1. Niniejszy dokument określa Politykę Prywatności w sklepie internetowym  Matylda.pl, funkcjonującym pod adresem https://matyldasklep.pl.app/pl, NIP  5732948681 ,która w szczególności  obejmuje regulacje dotyczące ochrony danych osobowych oraz bezpieczeństwa innych danych wprowadzonych do Serwisu przez Użytkownika. </p>
+        <p>2. Polityka Prywatności stanowi integralny załącznik do Regulaminu sklepu internetowego Matyldasklep.pl </p>
         <h4>§2</h4>
         <h3> DEFINICJE</h3>
         <p> Terminy użyte w niniejszym dokumencie oznaczają:</p>
-        <p>1. Administrator danych osobowych (zwany także Administratorem) - IMPRESS CREATIVES Sp. z o.o. z siedzibą w Katowicach, ul. Pierwiosnków 11, 40-750 (Katowice), wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy Katowice - Wschód w Katowicach, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0000874714, REGON 387743385, NIP 9542821471.</p>
-        <p>2. Serwis - strona internetowa pod adresem https://wycinarnia.vercel.app/pl oraz wszelkie jej podstrony.</p>
+        <p>1. Administrator danych osobowych (zwany także Administratorem) - Jarosław Szepelak  z siedzibą w Czestochowie, ul. Łużycka 1, 40-200 (Częstochowa), NIP 5732948681  .</p>
+        <p>2. Serwis - strona internetowa pod adresem https://matyldasklep.pl.vercel.app/pl oraz wszelkie jej podstrony.</p>
         <p>3. Użytkownik - osoba fizyczna, która korzysta z Serwisu i podaje w jego ramach swoje dane osobowe.</p>
         <p>4. Dane osobowe - informacje o osobie fizycznej zidentyfikowanej lub możliwej do zidentyfikowania poprzez jeden bądź kilka szczególnych czynników określających fizyczną, fizjologiczną, genetyczną, psychiczną, ekonomiczną, kulturową lub społeczną tożsamość, w tym wizerunek, nagranie głosu, dane kontaktowe, dane o lokalizacji, informacje zawarte w korespondencji, informacje gromadzone za pośrednictwem sprzętu rejestrującego lub innej podobnej technologii,</p>
         <p>5. RODO – Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE,</p>
-        <p>6. Regulamin – Regulamin sklepu internetowego Wycinarnia.pl. </p>
+        <p>6. Regulamin – Regulamin sklepu internetowego Matylda. </p>
         <h4>§3</h4>
         <h3> OCHRONA DANYCH OSOBOWYCH</h3>
         <p>Administrator jest administratorem danych osobowych w rozumieniu RODO.</p>
@@ -155,11 +155,11 @@ export default function contactPage({categories}) {
         <p>Administrator zapewnia bezpieczeństwo przetwarzanych danych osobowych oraz ich poufność, a także umożliwia dostęp do informacji o przetwarzaniu danych Użytkownikowi. Gdyby pomimo stosowanych środków bezpieczeństwa doszło do naruszenia ochrony Danych osobowych (np. „wycieku” danych lub ich utraty) i takie naruszenie mogłoby powodować wysokie ryzyko naruszenia praw lub wolności Użytkownika, Administrator poinformuje o takim zdarzeniu Użytkownika w sposób zgodny z przepisami.</p>
         <p>Użytkownik może skontaktować się z administratorem danych. Dane kontaktowe są następujące:</p>
         <p>Adres korespondencyjny:
-        ul. Pierwiosnków 11, 40-750 Katowice,</p>
+        ul. Łużycka 1, 42-202 Czestochowa,</p>
         <p>Adres e-mail:
-        kontakt@wycinarnia.pl</p>
+        matyldasklep@int.pl.pl</p>
         <p>Numer telefonu:
-        +48 32 441 28 83</p>
+        +48 884803964</p>
         <h4>§4</h4>
         <h3> BEZPIECZEŃSTWO DANYCH OSOBOWYCH</h3>
         <p>1. Administrator wykorzystuje wszelkie dostępne mu techniczne i organizacyjne możliwości, by zapewnić bezpieczeństwo danym osobowym Użytkownika i ochronić je przed przypadkowym lub celowym zniszczeniem, przypadkową utratą, modyfikacją, nieautoryzowanym ujawnieniem lub dostępem do nich. Dane osobowe Użytkowników są przechowywane i przetwarzane na serwerach o wysokim stopniu zabezpieczeń, z zachowaniem odpowiednich środków bezpieczeństwa, spełniających wymogi polskiego prawa.</p>
@@ -245,7 +245,7 @@ Meta Platforms, Inc. - polityka prywatności: https://www.facebook.com/privacy/p
       <h3> LOGI</h3>
       <p>1. Zgodnie z praktyką większości serwisów www Administrator przechowuje zapytania HTTP kierowane do jego serwera (logi serwera). W związku z powyższym Administrator przechowuje następujące informacje: <br/>
       adresy IP, z których użytkownicy przeglądają treści informacyjne naszego serwisu; <br/>
-      czas nadejścia zapytania, <br/>
+      czas nadejścia zapytania, <br/>Pliki
       czas wysłania odpowiedzi, <br/>
       nazwę stacji klienta - identyfikacja realizowana przez protokół HTTP, <br/>
       informacje o błędach jakie nastąpiły przy realizacji transakcji HTTP, <br/>

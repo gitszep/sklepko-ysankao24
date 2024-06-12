@@ -319,12 +319,12 @@ export default function Header({transparentByDefault=true,categories}) {
             </NavLinkWithDropdown>
 
             <NavLinkWithDropdown color={linkColor} href={"/products"}>
-              Products
+              Produkty
               <NewDropdown>
                 <div>
                   <Grid>
                     <div style={{ marginLeft: "70px", marginTop: "30px" }}>
-                      <h4>Clothing</h4>
+                      <h4>Ubrania</h4>
                       <nav>
                         {categories?.length > 0 && categories.map(category => (
                           <NewNavLinkWithDropdown key={category._id} href={`/category/${category._id}`}>
@@ -380,7 +380,7 @@ export default function Header({transparentByDefault=true,categories}) {
               </NewDropdown>
             </NavLinkWithDropdown>
             <NavLinkWithDropdown color={linkColor} href={"/contacts"}>
-              Contact
+              Kontakt
               
             </NavLinkWithDropdown>
           </StyledNav>
