@@ -133,10 +133,10 @@ export default function contactPage({categories}) {
 
         <Title>Regulamin</Title>
         <h3>1. POSTANOWIENIA OGÓLNE</h3>
-        <p>1. Niniejszy regulamin określa zasady dokonywania zakupów w sklepie internetowym  „Matylda” funkcjonującym pod adresem http://www.matyldasklep.pl/, prowadzonym przez Jarosław Szepelak odpowiedzialnością z siedzibą w Częstochowie, ul. Łużycka 1, 42-420 Czestochowa, pod numerem NIP: 9542821471, określa zasady i warunki świadczenia  ograniczoną odpowiedzialnością z siedzibą w Częstochowie nieodpłatnych usług drogą elektroniczną.</p>
+        <p>1. Niniejszy regulamin określa zasady dokonywania zakupów w sklepie internetowym  „Matylda” funkcjonującym pod adresem http://www.matyldasklep.pl/, prowadzonym przez Jarosław Szepelak, nieewidencjonowana działalność gospodarcza,  z  odpowiedzialnością z siedzibą w Częstochowie, ul. Łużycka 1, 42-420 Czestochowa, określa zasady i warunki świadczenia  ograniczoną odpowiedzialnością z siedzibą w Częstochowie nieodpłatnych usług drogą elektroniczną.</p>
         <p>2. Pojęcia użyte w regulaminie oznaczają:</p>
         <p> 1. Klient – osoba fizyczna (posiadająca pełną zdolność do czynności prawnych), osoba prawna lub jednostka organizacyjna niebędąca osobą prawną, której ustawa przyznaje zdolność prawną, która dokonała lub zamierza dokonać zakupu w sklepie internetowym „matyldasklep.pl”; <br/>
-        2.Sprzedawca –  Jarosław Szepelak z siedzibą w Częstochowie, ul. Łużycka 1, 42-420 Czestochowa, pod numerem NIP:  5732948681   <br/>
+        2.Sprzedawca –  Jarosław Szepelak, nieewidencjonowana działalność gospodarcza,  z siedzibą w Częstochowie, ul. Łużycka 1, 42-420 Czestochowa   <br/>
        3. Sklep – sklep internetowy utrzymywany przez Sprzedawcę w domenie http://www.matyldasklep.pl/; <br/>
        4. Konsument – w myśl ustawy z dnia 23 kwietnia 1964 r. Kodeks cywilny – Użytkownik, który jako osoba fizyczna dokonuje czynności prawnej niezwiązanej bezpośrednio z jej działalnością gospodarczą lub zawodową. Konsumentem, w rozumieniu niniejszego Regulaminu, są również przedsiębiorcy prowadzący jednoosobową działalność gospodarczą, zawierający umowy niemające charakteru zawodowego wynikającego z przedmiotu wykonywanych przez nich działalności; <br/>
        5. Przedsiębiorca – osoba fizyczna, osoba prawna lub jednostka organizacyjną niebędącą osobą prawną, której ustawa przyznaje zdolność prawną, prowadzącą we własnym imieniu działalność gospodarczą lub zawodową i dokonującą czynności prawnej związaną bezpośrednio z jej działalnością gospodarczą lub zawodową; <br/>
@@ -303,14 +303,14 @@ export default function contactPage({categories}) {
           <h4>§ 1</h4>
           <h4>Treści niedozwolone</h4>
           <p>1. Celem niniejszego dokumentu jest dostosowanie serwisu internetowego “Matylda” działającego pod adresem internetowym: matyldasklep.pl, do wytycznych i postanowień Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2022/2065 z dnia 19 października 2022 r. w sprawie jednolitego rynku usług cyfrowych oraz zmiany dyrektywy 2000/31/WE (akt o usługach cyfrowych). <br/></p>
-          <p>2. Właścicielem serwisu internetowego, o którym mowa w ust. 1, jest Jarosław Szepelak z siedzibą w Częstochowie, ul.Łużycka 1, 42-202 Czestochowa, NIP: 9542821471. <br/></p>
+          <p>2. Właścicielem serwisu internetowego, o którym mowa w ust. 1, jest Jarosław Szepelak, nieewidencjonowana działalność gospodarcza  z siedzibą w Częstochowie, ul.Łużycka 1, 42-202 Czestochowa. <br/></p>
           <p>3. Pojęcia użyte w niniejszym dokumencie oznaczają:  <br/></p>
           DSA - Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2022/2065 z dnia 19 października 2022 r. w sprawie jednolitego rynku usług cyfrowych oraz zmiany dyrektywy 2000/31/WE (akt o usługach cyfrowych), <br/>
           Platforma - serwis internetowy Matylda’ znajdujący się pod adresem internetowym matyldasklep.pl, <br/>   
           <p>Polityk praywatności - polityka prywatności Platformy dostępna pod adresem internetowym: https://matyldkasklep.pl/polityka-prywatnosc\/
           Regulamin - regulamin świadczenia usług dostępny pod adresem internetowym: https://matyldasklep.pl/regulamin/,</p> <br/>
           <p>Regulamin DSA - niniejszy regulamin, </p>
-          <p>Sprzedawca - Jarosław Szepelak  w Częstochowie, ul Łużycka 1, 42-200 Częstochowa,posiadająca NIP:  5732948681,</p>
+          <p>Sprzedawca - Jarosław Szepelak, nieewidencjonowana działalność gospodarcza,  w Częstochowie, ul Łużycka 1, 42-200 Częstochowa.</p>
           <p>Użytkownik - osoba fizyczna (posiadająca pełną zdolność do czynności prawnych), prawna lub jednostka organizacyjna nieposiadająca osobowości prawnej, która korzysta z Platformy. Użytkownikiem może być zarówno osoba fizyczna nieprowadząca działalności gospodarczej, jak i przedsiębiorca. </p>
           <p>4. Regulamin DSA stanowi załącznik do Regulaminu. W przypadku sprzeczności postanowień Regulaminu DSA z Regulaminem, pierwszeństwo mają postanowienia Regulaminu.   <br/></p>
           <h4>§ 3</h4>

@@ -134,12 +134,12 @@ export default function contactPage({categories}) {
         <Title>Polityka prywatności</Title>
         <h4>§1</h4>
         <h3> POSTANOWIENIA OGÓLNE</h3>
-        <p>1. Niniejszy dokument określa Politykę Prywatności w sklepie internetowym  Matylda.pl, funkcjonującym pod adresem https://matyldasklep.pl.app/pl, NIP  5732948681 ,która w szczególności  obejmuje regulacje dotyczące ochrony danych osobowych oraz bezpieczeństwa innych danych wprowadzonych do Serwisu przez Użytkownika. </p>
+        <p>1. Niniejszy dokument określa Politykę Prywatności w sklepie internetowym  Matylda.pl, funkcjonującym pod adresem https://matyldasklep.pl.app/pl ,która w szczególności  obejmuje regulacje dotyczące ochrony danych osobowych oraz bezpieczeństwa innych danych wprowadzonych do Serwisu przez Użytkownika. </p>
         <p>2. Polityka Prywatności stanowi integralny załącznik do Regulaminu sklepu internetowego Matyldasklep.pl </p>
         <h4>§2</h4>
         <h3> DEFINICJE</h3>
         <p> Terminy użyte w niniejszym dokumencie oznaczają:</p>
-        <p>1. Administrator danych osobowych (zwany także Administratorem) - Jarosław Szepelak  z siedzibą w Czestochowie, ul. Łużycka 1, 40-200 (Częstochowa), NIP 5732948681  .</p>
+        <p>1. Administrator danych osobowych (zwany także Administratorem) - Jarosław Szepela, nieewidencjonowana działalność gospodarcza z siedzibą w Czestochowie, ul. Łużycka 1, 40-200 (Częstochowa).</p>
         <p>2. Serwis - strona internetowa pod adresem https://matyldasklep.pl.vercel.app/pl oraz wszelkie jej podstrony.</p>
         <p>3. Użytkownik - osoba fizyczna, która korzysta z Serwisu i podaje w jego ramach swoje dane osobowe.</p>
         <p>4. Dane osobowe - informacje o osobie fizycznej zidentyfikowanej lub możliwej do zidentyfikowania poprzez jeden bądź kilka szczególnych czynników określających fizyczną, fizjologiczną, genetyczną, psychiczną, ekonomiczną, kulturową lub społeczną tożsamość, w tym wizerunek, nagranie głosu, dane kontaktowe, dane o lokalizacji, informacje zawarte w korespondencji, informacje gromadzone za pośrednictwem sprzętu rejestrującego lub innej podobnej technologii,</p>
