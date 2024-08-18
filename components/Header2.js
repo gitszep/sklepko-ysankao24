@@ -109,7 +109,7 @@ export default function Header2({transparentByDefault = true, categories, cartPr
     <StyledHeader transparentByDefault={transparentByDefault} isScrolled={isScrolled}>
       <HeaderNav categories={categories} />
       <LogoOuter>
-        <Logo href="/" className="logo">Matylda</Logo>
+        <Logo href="/" className="logo">Kołysanka</Logo>
       </LogoOuter>
       <ButtonsOuter>
         <Link href={"/cart"}>

@@ -119,9 +119,9 @@ export default function contactPage({categories}) {
       <Header categories={categories}/>
 
       <Hero>
-        <ImageProps src="https://alchemy-theme-modern.myshopify.com/cdn/shop/files/Cools-Club_blog_02_Cover.jpg"/>
+        <ImageProps src="https://toytime-theme.myshopify.com/cdn/shop/files/Rectangle_7.jpg?v=1707907252&width=2000"/>
         <TextParts>
-          <Title>Contact</Title>
+          <Title></Title>
 
         </TextParts>
       </Hero>
@@ -131,9 +131,8 @@ export default function contactPage({categories}) {
         <br/>
         <br/>
 
-        <Title>Need assistance?</Title>
-        <Description style={{textAlign: 'center', marginTop: '5px'}}>We’re happy to help! Just fill out the form below
-          and we’ll be in touch in under 24 hours.</Description>
+        <Title>Potrzebujesz pomocy?</Title>
+        <Description style={{textAlign: 'center', marginTop: '5px'}}>Z przyjemnością pomożemy! Wypełnij poniższy formularz, a skontaktujemy się z Tobą w ciągu 24 godzin.</Description>
         <Center>
 
 
@@ -141,12 +140,12 @@ export default function contactPage({categories}) {
 
 
             <MyForm action="">
-              <MyLabel>Name*</MyLabel>
+              <MyLabel>Nazwa*</MyLabel>
               <MyInput type="text" placeholder="Enter Your name"></MyInput> <MyLabel>Email*</MyLabel>
               <MyInput type="email" placeholder="Enter Your name"></MyInput>
-              <TextAreaLabel>Messsage*</TextAreaLabel>
+              <TextAreaLabel>Wiadomość*</TextAreaLabel>
               <MyTextArea></MyTextArea>
-              <Button>Send</Button>
+              <Button>Wyślij</Button>
             </MyForm>
           </Container>
 
@@ -154,30 +153,30 @@ export default function contactPage({categories}) {
           <br/>
           <br/>
           <NewsSection news={[
-            {
-              img: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/articles/blog-2.jpg?v=1644230433&width=1160',
-              title: 'Aloha Summer',
-              link: '/products',
-              description: 'Everything we create is inspired by our members, real girls, real life. We celebrate what it means to be a girl today. We encourage self-confidence and self-expression, a place where girls from different worlds can come...',
-            },
-            {
-              img: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/articles/blog-4.jpg?v=1644232716&width=540',
-              title: 'Kasia',
-              link: '/products',
-              description: 'We played dress-up with Kasia for the launch of our new collection \'Better Than One\'. Full spring/summer collection available online....',
-            },
-            {
-              img: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/articles/blog-3.jpg?v=1644231998&width=540',
-              title: 'Stand by Cools',
-              link: '/products',
-              description: 'We played dress-up with Kasia for the launch of our new collection \'Better Than One\'. Full spring/summer collection available online....',
-            },
-            {
-              img: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/articles/blog-1.jpg?v=1644230448&width=540',
-              title: 'Aloha Summer',
-              link: '/products',
-              description: 'We played dress-up with Kasia for the launch of our new collection \'Better Than One\'. Full spring/summer collection available online....',
-            },
+              {
+                img: 'https://piano-toys.myshopify.com/cdn/shop/articles/05.jpg?v=1718368421&width=720',
+                title: 'Kołysanka ',
+                link: '/products',
+                description: 'Każda nasza zabawka powstaje z myślą o prawdziwych dzieciach i ich codziennych przygodach...',
+              },
+              {
+                img: 'https://piano-toys.myshopify.com/cdn/shop/articles/06.jpg?v=1718368664&width=720',
+                title: 'Kasia',
+                link: '/products',
+                description: 'Pełna wiosenno-letnia kolekcja zabawek jest już dostępna online.',
+              },
+              {
+                img: 'https://piano-toys.myshopify.com/cdn/shop/articles/01_8ae62cd4-b1fb-4ad1-a863-1edcb92ba865.jpg?v=1718368369&width=720',
+                title: 'Jarek',
+                link: '/products',
+                description: 'Świetnie się bawiliśmy, testując nasze nowe zabawki przy okazji premiery najnowszej kolekcji.   ',
+              },
+              {
+                img: 'https://piano-toys.myshopify.com/cdn/shop/articles/03_483d3dda-72a7-4574-9a96-c533e8cf2d35.jpg?v=1718368500&width=720',
+                title: 'Patrycja ',
+                link: '/products',
+                description: 'Każdy produkt to małe dzieło sztuki, stworzone z pasją i dbałością o najmniejsze detale.',
+              },
           ]}/>
 
         </Center>

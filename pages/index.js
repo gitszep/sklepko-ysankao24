@@ -23,18 +23,18 @@ export default function HomePage({featuredProduct,newProducts,wishedNewProducts,
       <Header categories={categories} />
       <FullWidthColumns columns={[
         {
-          title: 'New Arrivals',
-          text: 'We believe in good times and good vibes. Join the club!',
+          title: 'Nowości',
+          text: 'Wierzymy w świetną zabawę i pozytywną atmosferę. ',
           buttonLink: '/products',
-          buttonText: 'Show the capsule',
-          image: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/files/A34I8428-_3.jpg?v=1644259777&width=1440',
+          buttonText: 'Dołącz do naszej paczki!',
+          image: 'https://toyel-store-demo.myshopify.com/cdn/shop/files/ba22.jpg?v=1660531284',
         },
         {
-          title: 'Holidazed',
-          text: 'Inspired by our members, real girls real life.',
+          title: 'Najlepsze',
+          text: 'Inspirowane naszymi prawdziwymi maluchami.  ',
           buttonLink: '/products',
-          buttonText: 'Show now',
-          image: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/files/A34I8082.jpg?v=1643881925&width=1200',
+          buttonText: 'Najlepsze zabawki!',
+          image: 'https://toyel-store-demo.myshopify.com/cdn/shop/files/ba24.jpg?v=1660532110',
         },
       ]} />
 
@@ -42,22 +42,22 @@ export default function HomePage({featuredProduct,newProducts,wishedNewProducts,
 
       <FullWidthColumns buttonTheme="underline" columns={[
         {
-          title: 'Suntoucher',
+          title: 'Przyjazne',
           buttonLink: '/products',
-          buttonText: 'shop now',
-          image: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/files/505W-Q122_0.jpg?v=1643881448&width=960',
+          buttonText: 'Zobacz',
+          image: 'https://piano-toys.myshopify.com/cdn/shop/files/p2_0b389dfc-5884-467e-a0af-20ef876bc7ed.jpg?v=1720257019&width=750',
         },
         {
-          title: 'New Arrivals',
+          title: 'Nowości',
           buttonLink: '/products',
-          buttonText: 'explore now',
-          image: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/files/A34I8351.jpg?v=1643881546&width=960',
+          buttonText: 'Zobacz',
+          image: 'https://piano-toys.myshopify.com/cdn/shop/files/R_1.jpg?v=1720176002&width=750',
         },
         {
-          title: 'Recycools',
+          title: 'Ekologiczne ',
           buttonLink: '/products',
-          buttonText: 'shop now',
-          image: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/files/271474247_3456496524474861_7372086529365969756_n.jpg?v=1642774701&width=960',
+          buttonText: 'Zobacz',
+          image: 'https://piano-toys.myshopify.com/cdn/shop/files/R_2.jpg?v=1720176002&width=750',
         },
       ]} />
 
@@ -67,16 +67,18 @@ export default function HomePage({featuredProduct,newProducts,wishedNewProducts,
         </Center>
       )}
 
-      <img style={{width:'100%'}} src="https://alchemy-theme-modern.myshopify.com/cdn/shop/files/Cools_Club_blog_India_banner.jpg?v=1644246632&width=1366" alt=""/>
+      <img style={{width:'100%'}} src="https://toytime-theme.myshopify.com/cdn/shop/files/Rectangle_7.jpg?v=1707907252&width=2000" alt=""/>
 
       <TestimonialsSection />
 
+      
+
       <Center bgColor="#D4B2A8">
         <ImageAndText
-          img="https://alchemy-theme-modern.myshopify.com/cdn/shop/files/271474247_3456496524474861_7372086529365969756_n.jpg?v=1642774701&width=960"
-          title="Everything we create is inspired by real girls, real life."
-          description="We don't accept ordinary. We believe everyone has the power to be ordinary. Our clothing and accessories provide a platform for self-expression served up with a slice of keeping it real."
-          buttonLabel="Show now"
+          img="https://piano-toys.myshopify.com/cdn/shop/files/1_9f93784d-a8e2-48cd-941c-5184a3c0cba4.jpg?v=1718190834&width=1500"
+          title="Każda nasza zabawka powstaje z myślą o prawdziwych dzieciach i ich codziennych przygodach."
+          description=" Wierzymy, że każde dziecko ma w sobie niezwykłą moc. Nasze zabawki i akcesoria stają się platformą do wyrażania siebie, jednocześnie zachowując autentyczność."
+          buttonLabel="Zobacz"
           buttonLink="/products"
         />
       </Center>
@@ -84,48 +86,48 @@ export default function HomePage({featuredProduct,newProducts,wishedNewProducts,
       <Center bgColor="#fff">
         <NewsSection news={[
           {
-            img: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/articles/blog-2.jpg?v=1644230433&width=1160',
-            title: 'Aloha Summer',
+            img: 'https://piano-toys.myshopify.com/cdn/shop/articles/05.jpg?v=1718368421&width=720',
+            title: 'Kołysanka ',
             link: '/products',
-            description: 'Everything we create is inspired by our members, real girls, real life. We celebrate what it means to be a girl today. We encourage self-confidence and self-expression, a place where girls from different worlds can come...',
+            description: 'Każda nasza zabawka powstaje z myślą o prawdziwych dzieciach i ich codziennych przygodach...',
           },
           {
-            img: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/articles/blog-4.jpg?v=1644232716&width=540',
+            img: 'https://piano-toys.myshopify.com/cdn/shop/articles/06.jpg?v=1718368664&width=720',
             title: 'Kasia',
             link: '/products',
-            description: 'We played dress-up with Kasia for the launch of our new collection \'Better Than One\'. Full spring/summer collection available online....',
+            description: 'Pełna wiosenno-letnia kolekcja zabawek jest już dostępna online.',
           },
           {
-            img: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/articles/blog-3.jpg?v=1644231998&width=540',
-            title: 'Stand by Cools',
+            img: 'https://piano-toys.myshopify.com/cdn/shop/articles/01_8ae62cd4-b1fb-4ad1-a863-1edcb92ba865.jpg?v=1718368369&width=720',
+            title: 'Jarek',
             link: '/products',
-            description: 'We played dress-up with Kasia for the launch of our new collection \'Better Than One\'. Full spring/summer collection available online....',
+            description: 'Świetnie się bawiliśmy, testując nasze nowe zabawki przy okazji premiery najnowszej kolekcji.   ',
           },
           {
-            img: 'https://alchemy-theme-modern.myshopify.com/cdn/shop/articles/blog-1.jpg?v=1644230448&width=540',
-            title: 'Aloha Summer',
+            img: 'https://piano-toys.myshopify.com/cdn/shop/articles/03_483d3dda-72a7-4574-9a96-c533e8cf2d35.jpg?v=1718368500&width=720',
+            title: 'Patrycja ',
             link: '/products',
-            description: 'We played dress-up with Kasia for the launch of our new collection \'Better Than One\'. Full spring/summer collection available online....',
+            description: 'Każdy produkt to małe dzieło sztuki, stworzone z pasją i dbałością o najmniejsze detale.',
           },
         ]} />
       </Center>
 
       <Center bgColor="#fff">
         <ImageAndText
-          img="https://alchemy-theme-modern.myshopify.com/cdn/shop/files/INSTA-09.jpg?v=1644155206&width=1200"
-          title="Who is the Cools Girl?"
-          description="She's sassy, sophisticated, a real straight shooter. She knows what she wants and what she stands for. She walks the fine line between being ultra femme while flirting with her tomboy side."
+          img="https://piano-toys.myshopify.com/cdn/shop/articles/07.jpg?v=1718368498&width=720"
+          title="Kim jest  Cool Girl?"
+          description="To dziewczyna z charakterem, elegancka i bezpośrednia. Doskonale wie, czego chce i za czym stoi. Porusza się z gracją między ultra kobiecością a odrobiną chłopięcego stylu."
           buttonLink="/products"
-          buttonLabel="Our story"
+          buttonLabel="Zobacz"
           contentBg="#C6C7A4"
         />
       </Center>
 
       <BgImgAndText
-        img="https://alchemy-theme-modern.myshopify.com/cdn/shop/files/cc-banner-web_2200xv2.jpg?v=1642778161&width=1920"
-        title="Come and join the party"
-        description="We celebrate what it means to be a girl today. We encourage self-confidence and self-expression, a place where girls from different worlds can come together and be themselves."
-        buttonLabel="Show clothing"
+        img="https://piano-toys.myshopify.com/cdn/shop/files/1.jpg?=1718188442&width=1070" 
+        title="Zobacz i dołącz do zabawy"
+        description="Świętujemy to, co oznacza być dzieckiem dzisiaj. Wspieramy pewność siebie i wyrażanie siebie, oferując przestrzeń, w której dzieci mogą się spotkać i być sobą.."
+        buttonLabel="Zobacz zabawki"
         buttonLink="/products"
       />
 

@@ -169,11 +169,11 @@ export const HeaderNav = ({categories}) => {
           zamknij
         </button>
         <Link href={'/'}>Home</Link>
-        <Link href={'/products'}>Products</Link>
+        <Link href={'/products'}>Produkty</Link>
         <ProductsSection>
           <Cols>
             <div>
-              <Link className="subtitle" href={'/products'}>Clothing</Link>
+              <Link className="subtitle" href={'/products'}>Zabawki</Link>
               <ul>
                 {categories && categories.map(c => (
                   <li key={c._id}>
@@ -183,8 +183,10 @@ export const HeaderNav = ({categories}) => {
               </ul>
             </div>
             <div>
-              <Link className="subtitle" href={'/products'}>Featured</Link>
+              <Link className="subtitle" href={'/products'}></Link>
+             {/* 
               <ul>
+                
                 <li><Link href={'/'}>Link 1</Link></li>
                 <li><Link href={'/'}>Link 2</Link></li>
                 <li><Link href={'/'}>Link 3</Link></li>
@@ -197,21 +199,24 @@ export const HeaderNav = ({categories}) => {
                 <li><Link href={'/'}>Link 2</Link></li>
                 <li><Link href={'/'}>Link 3</Link></li>
               </ul>
+               */}
             </div>
             <div className="square-ad-outer">
-              <SquareImageLink
-                img="//alchemy-theme-modern.myshopify.com/cdn/shop/files/nav-image-2.jpg?v=1710261609&width=1200"
+          {/*      <SquareImageLink
+                img=""
+
                 title="The holidazed Capsule"
+                      
                 linkLabel="Show now"
                 linkUrl="/products"
               />
-            </div>
+           */} </div>
           </Cols>
           <ContactRowOuter>
             <ContactRow/>
           </ContactRowOuter>
         </ProductsSection>
-        <Link href={'/contact'}>Contact</Link>
+        <Link href={'/contact'}>Kontakt</Link>
       </NavLinksOuter>
     </StyledNav>
   );

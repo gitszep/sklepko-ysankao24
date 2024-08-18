@@ -54,7 +54,7 @@ export default function ContactRow() {
       </div>
       <div className="icon-with-text">
         <FontAwesomeIcon icon={faEnvelope} />
-        <span><a href="mailto:matyldasklep@int.pl">matyldasklep@int.pl</a></span>
+        <span><a href="mailto:matyldasklep@int.pl">kołysankasklep@int.pl</a></span>
       </div>
     </Grid>
   );

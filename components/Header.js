@@ -324,7 +324,7 @@ export default function Header({transparentByDefault=true,categories}) {
                 <div>
                   <Grid>
                     <div style={{ marginLeft: "70px", marginTop: "30px" }}>
-                      <h4>Ubrania</h4>
+                      <h4>Zabawki</h4>
                       <nav>
                         {categories?.length > 0 && categories.map(category => (
                           <NewNavLinkWithDropdown key={category._id} href={`/category/${category._id}`}>

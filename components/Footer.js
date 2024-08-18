@@ -47,7 +47,7 @@ export default function Footer({categories}) {
       <Center>
         <Grid>
           <div>
-            <h4>Clothing</h4>
+            <h4>Zabawki</h4>
             <nav>
               {categories?.length > 0 && categories.map(category => (
                 <Link key={category._id} href={`/category/${category._id}`}>{category.name}</Link>
@@ -60,19 +60,13 @@ export default function Footer({categories}) {
               <a href="">Home</a>
               <a href="">Sklep</a>
               <a href="">Kontakt</a>
-
               <Link href="/regulamin">Regulamin</Link>
-              <Link href="/politykaprywatnosci">Polityka prywatności</Link>         
-
-
-
-
-
+              <Link href="/politykaprywatnosci">Polityka prywatności</Link>    
             </nav>
           </div>
           <div>
-            <h4>Talk about your store</h4>
-            <p>Everything we create is inspired by our members, real girls, real life. We celebrate what it means to be a girl today. We encourage self-confidence and self-expression, a place where girls from different worlds can come...</p>
+            <h4>O naszym sklepie</h4>
+            <p>Każda zabawka, którą oferujemy, jest inspirowana radością i kreatywnością dzieci. W naszym sklepie doceniamy to, co oznacza być dzieckiem dzisiaj. Zachęcamy do odkrywania siebie i rozwijania wyobraźni. To miejsce, gdzie dzieci  mogą znaleźć zabawki, które sprawią im radość <br/> i pomogą wyrazić siebie.</p>
           </div>
         </Grid>
       </Center>

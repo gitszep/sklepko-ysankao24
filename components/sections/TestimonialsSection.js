@@ -24,11 +24,11 @@ const Section = styled.section`
 export default function TestimonialsSection() {
   return (
     <Section>
-      <h3>testimonials</h3>
+      <h1>Kołysanka</h1>
       <div className="stars">
         ★★★★★
       </div>
-      <h2>Great shop! Love the clothes! You&apos;re guaranteed great service too.</h2>
+      <h2>Świetny sklep! Uwielbiam te zabawki! Gwarantowana wspaniała obsługa.</h2>
     </Section>
   );
 }
