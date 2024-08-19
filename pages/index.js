@@ -122,6 +122,10 @@ export default function HomePage({featuredProduct,newProducts,wishedNewProducts,
           contentBg="#C6C7A4"
         />
       </Center>
+      
+
+
+
 
       <BgImgAndText
         img="https://piano-toys.myshopify.com/cdn/shop/files/1.jpg?=1718188442&width=1070" 

@@ -328,6 +328,7 @@ export default function CartPage({categories}) {
                         <h4>DPD</h4>
                         <p>dostawa do domu</p>
                       </DeliveryOption>
+                      {/*  
                       <DeliveryOption
                         active={selectedDeliveryOption === 'inpost'}
                         onClick={() => {
@@ -336,6 +337,7 @@ export default function CartPage({categories}) {
                           }
                           setSelectedDeliveryOption('inpost');
                         }}>
+
                         <h4>INPOST</h4>
                         {selectedParcelLocker ? (
                           <>
@@ -345,6 +347,7 @@ export default function CartPage({categories}) {
                           <p>paczkomat</p>
                         )}
                       </DeliveryOption>
+                      */}
                     </DeliveryOptions>
                     <Modal
                       onHide={() => setShowParcelLockerPicker(false)}

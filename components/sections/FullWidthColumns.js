@@ -29,10 +29,10 @@ const StyledSection = styled.div`
     padding: 20px;
     color: #fff;
     z-index:1;
-    margin-top: 8rem;
+    margin-top: 14rem;
     h2{
       font-size: 3rem;
-      margin-bottom:5px;
+      margin-bottom:55px;
     }
     p{
       margin-bottom: 25px;
