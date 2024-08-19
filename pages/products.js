@@ -35,16 +35,16 @@ export default function ProductsPage({ products, wishedProducts, categories }) {
     <>
       <Header categories={categories} transparentByDefault={true} />
       <Hero>
-        <ImageProps src="https://alchemy-theme-modern.myshopify.com/cdn/shop/collections/all.jpg" />
+        <ImageProps src="https://piano-toys.myshopify.com/cdn/shop/files/1.jpg?v=1718188442&width=1070" />
         <TextParts>
-          <Title>Shop all</Title>
+          <Title>Witamy w Kołysance </Title>
           <Description>
-            This is a demonstration of the Alchemy theme for Shopify
+             Sprawdź naszą ofertę i znajdź coś, co wywoła uśmiech na twarzy Twojego dziecka.
           </Description>
         </TextParts>
       </Hero>
       <Center>
-        <NewProducts products={products} wishedProducts={wishedProducts} label="All products " />
+        <NewProducts products={products} wishedProducts={wishedProducts} label="Produkty " />
       </Center>
       <Footer  categories={categories} />
     </>

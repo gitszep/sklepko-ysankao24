@@ -29,7 +29,7 @@ const StyledSection = styled.div`
     padding: 20px;
     color: #fff;
     z-index:1;
-    margin-top: 12rem;
+    margin-top: 8rem;
     h2{
       font-size: 3rem;
       margin-bottom:5px;

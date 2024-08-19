@@ -32,7 +32,7 @@ const LatestProductsBox = styled.div`
   }
 `;
 
-export default function NewProducts({products,wishedProducts,label='New Arrivals'}) {
+export default function NewProducts({products,wishedProducts,label='Nowości'}) {
   return (
     <Center>
       <LatestProductsBox>
