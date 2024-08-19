@@ -12,6 +12,8 @@ import TextParts from "@/components/TextParts";
 import Footer from "@/components/Footer";
 import {Category} from "@/models/Category";
 import NewProducts from "@/components/NewProducts";
+import ImageAndText from "@/components/sections/ImageAndText";
+import BgImgAndText from "@/components/sections/BgImgAndText";
 
 
 
@@ -45,7 +47,30 @@ export default function ProductsPage({ products, wishedProducts, categories }) {
       </Hero>
       <Center>
         <NewProducts products={products} wishedProducts={wishedProducts} label="Produkty " />
+        
       </Center>
+      <Center bgColor="#fff">
+        <ImageAndText
+          img="https://piano-toys.myshopify.com/cdn/shop/articles/07.jpg?v=1718368498&width=720"
+          title="Kim jest  Cool Girl?"
+          description="To dziewczyna z charakterem, elegancka i bezpośrednia. Doskonale wie, czego chce i za czym stoi. Porusza się z gracją między ultra kobiecością a odrobiną chłopięcego stylu."
+          buttonLink="/products"
+          buttonLabel="Zobacz"
+          contentBg="#C6C7A4"
+        />
+      </Center>
+      
+
+
+
+
+      <BgImgAndText
+        img="https://piano-toys.myshopify.com/cdn/shop/files/1.jpg?=1718188442&width=1070" 
+        title="Zobacz i dołącz do zabawy"
+        description="Świętujemy to, co oznacza być dzieckiem dzisiaj. Wspieramy pewność siebie i wyrażanie siebie, oferując przestrzeń, w której dzieci mogą się spotkać i być sobą.."
+        buttonLabel="Zobacz zabawki"
+        buttonLink="/products"
+      />
       <Footer  categories={categories} />
     </>
   );

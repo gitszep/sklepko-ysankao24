@@ -6,6 +6,7 @@ import ProductSection from "@/components/sections/ProductSection";
 import Footer from "@/components/Footer";
 import ImageAndText from "@/components/sections/ImageAndText";
 import {Category} from "@/models/Category";
+import BgImgAndText from "@/components/sections/BgImgAndText";
 
 
 export default function ProductPage({product, categories}) {
@@ -15,26 +16,29 @@ export default function ProductPage({product, categories}) {
       <Center>
         <ProductSection product={product} />
       </Center>
-      <Center bgColor={'#fff'}>
+      
+      <Center bgColor="#fff">
         <ImageAndText
-          img={'https://alchemy-theme-modern.myshopify.com/cdn/shop/files/000098290015.jpg?v=1644157130&width=600'}
-          title={'People, places, positivity'}
-          description={'The vision behind us is to create a culture all about good times, good vibes, and good style.'}
-          buttonLabel={'Our story'}
-          buttonLink={'/'}
-          contentBg={'#96D9DE'}
+          img="https://piano-toys.myshopify.com/cdn/shop/articles/07.jpg?v=1718368498&width=720"
+          title="Kim jest  Cool Girl?"
+          description="To dziewczyna z charakterem, elegancka i bezpośrednia. Doskonale wie, czego chce i za czym stoi. Porusza się z gracją między ultra kobiecością a odrobiną chłopięcego stylu."
+          buttonLink="/products"
+          buttonLabel="Zobacz"
+          contentBg="#C6C7A4"
         />
       </Center>
-      <Center bgColor={'#F7E7C1'}>
-        <ImageAndText
-          img={'https://alchemy-theme-modern.myshopify.com/cdn/shop/files/INSTA-05_c8f8808c-738d-4c1d-9140-c7a7530fb5e4.jpg?v=1644157274&width=600'}
-          title={'We\'re lifestyle first and foremost'}
-          description={'We live for making memories that will last a lifetime and believe wandering sure beats wondering. This \'live in the moment\' mentality transcends into our style.'}
-          buttonLabel={'Show app'}
-          buttonLink={'/products'}
-          contentPosition={'left'}
-        />
-      </Center>
+      
+
+
+
+
+      <BgImgAndText
+        img="https://piano-toys.myshopify.com/cdn/shop/files/1.jpg?=1718188442&width=1070" 
+        title="Zobacz i dołącz do zabawy"
+        description="Świętujemy to, co oznacza być dzieckiem dzisiaj. Wspieramy pewność siebie i wyrażanie siebie, oferując przestrzeń, w której dzieci mogą się spotkać i być sobą.."
+        buttonLabel="Zobacz zabawki"
+        buttonLink="/products"
+      />
       <Footer categories={categories} />
     </>
   );

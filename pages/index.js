@@ -77,7 +77,7 @@ export default function HomePage({featuredProduct,newProducts,wishedNewProducts,
         <ImageAndText
           img="https://piano-toys.myshopify.com/cdn/shop/files/1_9f93784d-a8e2-48cd-941c-5184a3c0cba4.jpg?v=1718190834&width=1500"
           title="Każda nasza zabawka powstaje z myślą o prawdziwych dzieciach i ich codziennych przygodach."
-          description=" Wierzymy, że każde dziecko ma w sobie niezwykłą moc. Nasze zabawki i akcesoria stają się platformą do wyrażania siebie, jednocześnie zachowując autentyczność."
+          description=" Wierzymy, że każde dziecko ma w sobie niezwykłą moc. Nasze zabawki i akcesoria stają się sposobem do wyrażania siebie, jednocześnie zachowując autentyczność."
           buttonLabel="Zobacz"
           buttonLink="/products"
         />

@@ -19,8 +19,8 @@ const Wrapper = styled.div`
     justify-content: center;
     color: ${props => props.contentBg ? '#000' : '#5c5c5c'};
     @media (min-width: 768px) {
-      padding: 40px 80px;
-      gap: 25px;
+      padding: 40px 40px;
+      gap: 20px;
     }
     h3{
       margin:0;
